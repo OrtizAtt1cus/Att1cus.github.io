@@ -1,0 +1,126 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:red;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:orange;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+	    }
+	.main {
+	    background:blue;
+	    font-size:1.5em;
+		text-align:center;
+		padding:10px;
+		}
+	.aside {
+	    background:orange;
+	    font-size:2em;
+		text-align:center;
+		}
+	.footer {
+	    background:red;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:1px solid black;
+			grid-template-rows:1fr 3fr 1fr 1fr;
+ 		    }
+		.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.aside {
+	    background:orange;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}	
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:1px solid black;
+			grid-template-rows:1fr 1fr 5fr 1fr 1fr;
+ 		    }
+		.header {
+	    background:red;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:orange;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.aside {
+	    background:orange;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>Index</title>
+	</head>
+<body bgcolor=purple>
+
+<div class=container>	
+   
+        <div class=header>Atticus Angelo R Ortiz's website</div>
+	<div class=nav><a href=home.html>home</a>
+	<a href=interest.html>interest</a>
+	<a href=hobbies.html>hobbies</a></div>
+	<div class=main><h1><p style="border-width:10px; border-style:dashed; border-color:yellow; padding: 15px;">MAIN PAGE</p></h1><p>I am Atticus Angelo R Ortiz and welcome to my humble website!</p>
+	<img src="IMG20230617191604.jpg" alt="this is me"></div>
+	<div class=aside></div>
+	<div class=footer>This page is associated with and made by Atticus Angelo R Ortiz from grade 9-caravario(Duzon from grade 9-calasanz helped me with the index)</div>
+	
+	</div>
+</body>
+</html>

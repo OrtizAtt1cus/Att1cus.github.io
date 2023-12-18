@@ -1,0 +1,133 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px dotted;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    border-bottom:5px dotted black;
+	    background:blue;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 5;
+		
+	    }
+	.nav {
+	    background:orange;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		border-right:5px dotted black;
+		border-bottom:5px dotted black;
+		
+	    }
+	.main {
+	    background:;
+	    font-size:1.5em;
+		text-align:center;
+		border-align:center;
+		padding:10px;
+		}
+	.aside {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+		}
+	.footer {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:flex;
+			border:1px dashed;
+			grid-template-rows:1fr 3fr 1fr 1fr;
+ 		    }
+		.nav {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+	    }
+	.main {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.aside {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}	
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:1px dashed;
+			grid-template-rows:1fr 1fr 5fr 1fr 1fr;
+ 		    }
+		.header {
+	    background:black;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.aside {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>welcome</title>
+	</head>
+<body bgcolor=red>
+<div class=container>	
+   
+    <div class=header>Welcome to my website</div>
+	
+	<div class=nav><a href=home.html>home</a>
+	<a href=hobbies.html>hobbies</a></div>
+	
+	<div class=main><h1><p style="border-width:5px; border-style:dashed; border-color:black; padding: 15px; background-color:yellow">interest</p></h1><p>Hello, I see you clicked on "interest", so here are my 
+interest:
+<br>Colors- the colors i like are Red, black, white, purple, and yellow
+<br>lego- not that much people like lego but i do, and i tend to let my imaginations run wild as i build and play lego
+<br>learning- as stubborn as i am, i am interested in learning, be it new skills or new ways to communicate
+<br>wood working- i specialize wood working, thats why i like it
+<br>friendly people- i like making new friends, especially friendly people, although i tend to be mean to those around me, i still try my best not to
+</body>
+</html>
